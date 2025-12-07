@@ -142,7 +142,7 @@ runuser -u "$BITWARDEN_USER" -- bash -c \
 "curl -Lso bitwarden.sh 'https://func.bitwarden.com/api/dl/?app=self-host&platform=linux' && chmod 700 bitwarden.sh"
 
 echo "=== Running Bitwarden installer ==="
-runuser -u "$BITWARDEN_USER" -- bash -c "./bitwarden.sh install"
+#runuser -u "$BITWARDEN_USER" -- bash -c "./bitwarden.sh install"
 
 echo -e "\e[1;37;42m Script by Talha Ali (Zonat Solutions) \e[0m "
 echo -e "\e[1;30;47m Support My Efforts by Subscribing my YouTube \e[0m"

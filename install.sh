@@ -149,11 +149,12 @@ echo -e "\e[1;30;47m Support My Efforts by Subscribing my YouTube \e[0m"
 echo -e "\e[1;30;47m Channel and like the Videos :) Thank you \e[0m"
 echo -e "\e[1;31;47m or buy me coffee: donate.zonatsolutions.com \e[0m"
 
-sleep 15
+sleep 5
 
 echo ""
 echo "=============================================="
 echo " Bitwarden installation complete!"
 echo " To start Bitwarden:"
-echo " cd /opt/bitwarden && ./bitwarden.sh start"
+echo " change user by command : su bitwarden"
+echo " cd /opt/bitwarden && ./bitwarden.sh install"
 echo "=============================================="
